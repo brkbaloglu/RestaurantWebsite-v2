@@ -85,12 +85,16 @@ html {
     color: var(--light-color);
 }
 
+.heading p a {
+    color: var(--light-color);
+}
+
 .heading p a:hover {
     text-decoration: underline;
 }
 
 .heading p span {
-    color: var(--light-color);
+    color: var(--white);
 }
 
 .btn,

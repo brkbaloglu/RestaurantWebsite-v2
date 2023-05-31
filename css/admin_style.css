@@ -216,7 +216,7 @@ section {
 .header .flex .navbar a {
     margin: 0 1rem;
     font-size: 2rem;
-    color: var(--light-color);
+    color: var(--white);
 }
 
 .header .flex .navbar a:hover {
