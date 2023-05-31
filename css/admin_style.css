@@ -195,7 +195,7 @@ section {
     top: 0;
     left: 0;
     right: 0;
-    background-color: var(--white);
+    background-color: var(--orange-red);
     box-shadow: var(--box-shadow);
     z-index: 1000;
     border-bottom: var(--border);
@@ -210,11 +210,7 @@ section {
 
 .header .flex .logo {
     font-size: 2.5rem;
-    color: var(--black);
-}
-
-.header .flex .logo span {
-    color: var(--orange-red);
+    color: var(--white);
 }
 
 .header .flex .navbar a {
@@ -230,12 +226,12 @@ section {
 .header .flex .icons>* {
     font-size: 2.5rem;
     cursor: pointer;
-    color: var(--light-color);
+    color: var(--white);
     margin-left: 1.7rem;
 }
 
 .header .flex .icons>*:hover {
-    color: var(--orange-red);
+    color: var(--black);
 }
 
 .header .flex .profile {
