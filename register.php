@@ -55,7 +55,7 @@ if(isset($_POST['submit'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Giriş yap</title>
+   <title>Kayıt Ol</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -73,7 +73,7 @@ if(isset($_POST['submit'])){
 <section class="form-container">
 
    <form action="" method="post">
-      <h3>Giriş yap</h3>
+      <h3>Kayıt Ol</h3>
       <input type="text" name="name" required placeholder="Adınızı giriniz" class="box" maxlength="50">
       <input type="email" name="email" required placeholder="E-mailinizi giriniz" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
       <input type="number" name="number" required placeholder="Numaranızı giriniz" class="box" min="0" max="9999999999" maxlength="10">
