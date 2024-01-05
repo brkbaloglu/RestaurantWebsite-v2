@@ -1,1 +1,7 @@
-## Restaurant Website - v2
+## Restaurant Website
+#### Using technologies in this project :
+* HTML
+* CSS
+* JavaScript
+* PHP
+* MySQL
